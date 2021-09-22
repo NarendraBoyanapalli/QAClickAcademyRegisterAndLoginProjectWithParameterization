@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 8, Time elapsed: 2.883 s <<< FAILURE! - in TestSuite
+initializeWebDriver(mvn.pck.practice5.tests.LoginTest)  Time elapsed: 2.017 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: B:\geckodriver-v0.29.1-win64\geckodriver.exe -DhomePageURL=https:\www.qaclickacademy.com
+	at mvn.pck.practice5.tests.LoginTest.initializeWebDriver(LoginTest.java:29)
+
+initializeWebDriver(mvn.pck.practice5.tests.RegisterTest)  Time elapsed: 0.032 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: B:\geckodriver-v0.29.1-win64\geckodriver.exe -DhomePageURL=https:\www.qaclickacademy.com
+	at mvn.pck.practice5.tests.RegisterTest.initializeWebDriver(RegisterTest.java:30)
+
